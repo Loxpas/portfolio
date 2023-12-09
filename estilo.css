@@ -208,6 +208,10 @@ html{
 .sobremi button:hover .overlay{
     width: 100%;
 }
+.sin-subrayado {
+    text-decoration: none;
+}
+
 /* SECCION S K I L L S */
 .skills{
     background-color: #252A2E;
@@ -373,11 +377,11 @@ html{
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
-
 }
 .curriculum .fila{
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
+    justify-content: center;
 }
 .curriculum .fila .col{
     width: 49%;
@@ -387,6 +391,8 @@ html{
     font-size: 28px;
     font-family: 'Righteous';
     margin-bottom: 25px;
+    text-align: center;
+
 }
 .curriculum .fila .izquierda{
     border-right: 2px solid #252A2E;
